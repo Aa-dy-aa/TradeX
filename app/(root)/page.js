@@ -1,7 +1,9 @@
 
 const Home = () => {
   return (
-    <div className="flex min-h-screen home-wrapper">Home</div>
+    <div className="flex min-h-screen home-wrapper">
+      <section></section>
+    </div>
   )
 }
 
