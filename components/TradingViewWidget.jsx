@@ -1,6 +1,6 @@
 "use client";
 import React, { memo } from "react";
-import useTradingViewWidget from "./useTradingViewWidget";
+import useTradingViewWidget from "../hooks/useTradingViewWidget";
 
 const TradingViewWidget = ({
   title,
