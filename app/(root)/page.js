@@ -9,8 +9,8 @@ const Home = () => {
           <TradingViewWidget 
             title="Market Overview"
             scriptUrl="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
-             config={MARKET_OVERVIEW_WIDGET_CONFIG}
-             className="custom-chart"
+            config={MARKET_OVERVIEW_WIDGET_CONFIG}
+            className="custom-chart"
             />
         </div>
       </section>
