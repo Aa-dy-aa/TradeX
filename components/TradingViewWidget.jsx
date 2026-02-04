@@ -22,7 +22,7 @@ const TradingViewWidget = ({
       )}
       <div
         className={cn('tradingview-widget-container', className)}
-        ref={containerRef}
+        ref={containerRef} 
       >
         <div
           className="tradingview-widget-container__widget"
