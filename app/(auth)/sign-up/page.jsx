@@ -43,6 +43,22 @@ const SignUp = () => {
           error={errors.fullName}
           validation={{ required: "Full name is required", minLength: 2 }}
         />
+        <InputField 
+          name="fullName"
+          label="Full Name"
+          placeholder="Aadyaa"
+          register={register}
+          error={errors.fullName}
+          validation={{ required: "Full name is required", minLength: 2 }}
+        />
+        <InputField 
+          name="email"
+          label="Email"
+          placeholder="Contact @"
+          register={register}
+          error={errors.email }
+          validation={{ required: "Email is required", minLength: 2 }}
+        />
         <Button
           type="submit"
           disabled={isSubmitting}
